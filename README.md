@@ -19,6 +19,15 @@ Terminal related shortcuts, commands, tools, plugins, etc.
 - `ESC + [backspace]` — Cut the word in front of the cursor
 - `CTRL + Y` — Paste the text of last deleted command
 - `CTRL + _` — Undo the last change
+
+#### History search
+- `CTRL + R` — Search history
+- `CTRL + N` — Next command from the History
+- `CTRL + P` — Previous command from the History
+- `CTRL + G` — Cancel search and restore original line
+- `CTRL + J` — End the search at current history entry
+
+#### Misc
 - `CTRL + L` — Clear terminal screen
 - `CTRL + S` — Stop output to screen
 - `CTRL + Q` — Re-enable screen output
@@ -27,10 +36,3 @@ Terminal related shortcuts, commands, tools, plugins, etc.
 - `!!` — Execute last command in history
 - `!abc` — Execute last command in history beginning with abc
 - `!abc:p` — Print last command in history beginning with abc
-
-#### History search
-- `CTRL + R` — Search history
-- `CTRL + N` — Next command from the History
-- `CTRL + P` — Previous command from the History
-- `CTRL + G` — Cancel search and restore original line
-- `CTRL + J` — End the search at current history entry

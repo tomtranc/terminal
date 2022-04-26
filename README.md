@@ -1,0 +1,2 @@
+# terminal
+Terminal related detail
